@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "levanter_1718c2f82ddeaf4cf1b85bf2d42f7057fe",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -26,7 +26,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "22896353582",
 // add your bot owner number
 
 OWNER_NAME: process.env.OWNER_NAME || "✦ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ🪀✦",
@@ -71,7 +71,7 @@ MODE: process.env.MODE || "public",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -95,19 +95,19 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 // make it true for fake recoding 
 
-FAKE_TYPING: process.env.FAKE_TYPING || "false",
+FAKE_TYPING: process.env.FAKE_TYPING || "true",
 // make it true for fake typing
 
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "263714757857",
+DEV: process.env.DEV || "22896353582",
 //replace with your whatsapp number       
  
 ANTI_VV: process.env.ANTI_VV || "true",
